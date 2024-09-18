@@ -4,14 +4,53 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>File Uploader</title>
+<title>Professional Services Consulting Firm</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>File Uploader</h1>
-<form action="/upload" method="POST" enctype="multipart/form-data">
-<input type="file" name="file">
-<input type="submit" value="Upload">
+<header>
+<h1>Professional Services Consulting Firm</h1>
+</header>
+<main>
+<section id="expertise">
+<h2>Our Expertise</h2>
+<ul>
+<li>Strategy development</li>
+<li>Operational improvement</li>
+<li>Financial management</li>
+<li>Human resources management</li>
+<li>Information technology</li>
+</ul>
+</section>
+<section id="contact">
+<h2>Contact Us</h2>
+<form action="/contact" method="POST">
+<label for="name">Name:</label>
+<input type="text" name="name" id="name">
+<br>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email">
+<br>
+<label for="message">Message:</label>
+<textarea name="message" id="message"></textarea>
+<br>
+<input type="submit" value="Send">
 </form>
+</section>
+<section id="services">
+<h2>Services Offered</h2>
+<ul>
+<li>Business consulting</li>
+<li>Technology consulting</li>
+<li>Financial consulting</li>
+<li>Human resources consulting</li>
+<li>Marketing consulting</li>
+</ul>
+</section>
+</main>
+<footer>
+<p>Copyright &copy; 2023 Professional Services Consulting Firm</p>
+</footer>
 </body>
 </html>
 
